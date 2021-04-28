@@ -1,0 +1,85 @@
+@media only screen and (max-width: 860px) {
+  body .lock {
+    overflow: hidden;
+  }
+  .header-list {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 110%;
+    z-index: 50;
+    opacity: 1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateX(-110%);
+            transform: translateX(-110%);
+    background: rgba(56, 56, 53, 0.678);
+    margin: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .header-list.active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 1;
+  }
+  .header-button-wrapper {
+    display: block;
+  }
+  .header-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    z-index: 110;
+  }
+  .header-burger:active, .header-burger:focus, .header-burger {
+    outline: none;
+    border: none;
+  }
+  .header-burger span {
+    height: 2px;
+    width: 40px;
+    background: white;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .header-burger.active span:nth-child(1) {
+    -webkit-transform: translateY(15px) rotate(45deg);
+            transform: translateY(15px) rotate(45deg);
+  }
+  .header-burger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .header-burger.active span:nth-child(3) {
+    -webkit-transform: translateY(-20px) rotate(-45deg);
+            transform: translateY(-20px) rotate(-45deg);
+  }
+  .header-menu {
+    width: 0;
+  }
+}
+/*# sourceMappingURL=media-queries.css.map */
