@@ -2,8 +2,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
 
-* {
+html {
   box-sizing: border-box;
+  font-size: 14px;
 }
 body {
   background-color: #e5e5e5;
@@ -38,10 +39,12 @@ body {
 }
 .header-block-head {
   position: fixed;
-  z-index: 100;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
+  margin: 0 auto;
+  max-width: 1440px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -62,8 +65,8 @@ body {
 }
 .phone-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1.142rem;
+  line-height: 1.357rem;
   letter-spacing: -0.015em;
   color: #ffffff;
 }
@@ -94,8 +97,8 @@ body {
   flex-wrap: wrap;
 }
 .header-list-link {
-  font-size: 18px;
-  line-height: 80px;
+  line-height: 5.71rem;
+  font-size: 1.257rem;
   letter-spacing: 0.07em;
   color: #ffffff;
 }
@@ -107,9 +110,9 @@ button[type="submit"] {
   cursor: pointer;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: 1.142rem;
   font-weight: bold;
-  line-height: 19px;
+  line-height: 1.357rem;
   letter-spacing: -0.015em;
 }
 .header-button {
@@ -135,8 +138,10 @@ button[type="submit"] {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
-  line-height: 56px;
+  font-size: 2.857rem;
+
+  line-height: 4rem;
+
   letter-spacing: 0.2px;
 }
 .subtitle {
@@ -144,8 +149,8 @@ button[type="submit"] {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
+  line-height: 1.785rem;
+
   letter-spacing: 0.2px;
 }
 .content-button {
@@ -181,8 +186,8 @@ button[type="submit"] {
 .list-item {
   max-width: 180px;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.428rem;
+  line-height: 2rem;
   letter-spacing: 0.2px;
   color: #ffffff;
   background-position: right center;
@@ -221,6 +226,7 @@ button[type="submit"] {
   width: 40%;
   background-image: url(../img/mgroup1.png);
   background-size: cover;
+  background-position: center;
 }
 .about-us-experience__count {
   position: absolute;
@@ -242,12 +248,12 @@ button[type="submit"] {
   padding: 0;
   margin: 0;
   font-family: "Playfair Display";
-  font-size: 70px;
-  line-height: 98px;
+  font-size: 5rem;
 }
 .text {
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 2.142rem;
+
+  line-height: 2.887rem;
 }
 .about-us-text-wrapper {
   display: flex;
@@ -258,8 +264,8 @@ button[type="submit"] {
   background-repeat: no-repeat;
 }
 .sub-subtitle {
-  font-size: 18px;
-  line-height: 25px;
+  line-height: 1.785rem;
+
   letter-spacing: 9.7px;
   text-transform: uppercase;
   color: #ff9900;
@@ -344,16 +350,18 @@ button[type="submit"] {
   justify-content: center;
   width: 70px;
   height: 70px;
-  font-size: 40px;
-  line-height: 56px;
+  font-size: 2.857rem;
+
+  line-height: 4rem;
+
   background-color: #000;
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
 }
 .chart-text {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.142rem;
+  line-height: 1.57rem;
 }
 
 // ***********************************  end stages block *******************************************
@@ -389,8 +397,9 @@ button[type="submit"] {
 }
 .our-works-descriptions-title {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 1.714rem;
+  line-height: 2.357rem;
+
   letter-spacing: 0.2px;
 }
 .our-works-descriptions-subtitle h2 {
@@ -400,13 +409,13 @@ button[type="submit"] {
 .our-works-descriptions-text {
   p {
     font-weight: 600;
-    font-size: 18px;
-    line-height: 33px;
+    line-height: 2.357rem;
+
     letter-spacing: 0.2px;
   }
   span {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.428rem;
   }
 }
 .our-works-slider-wrapper {
@@ -556,7 +565,7 @@ button[type="submit"] {
   max-width: 560px;
   position: relative;
   margin: auto;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   color: #ffffff;
   text-align: center;
   &:after {
@@ -565,7 +574,7 @@ button[type="submit"] {
     top: -100px;
     right: 0;
     font-family: "Playfair Display";
-    font-size: 300px;
+    font-size: 21.42rem;
     letter-spacing: 0.01em;
     color: rgba(255, 255, 255, 0.12);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -573,14 +582,14 @@ button[type="submit"] {
 }
 .reviews-text-quotes {
   font-weight: 300;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 1.142rem;
+  line-height: 1.285rem;
   letter-spacing: 0.01em;
 }
 .reviews-text-names {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.428rem;
+  line-height: 1.714rem;
   letter-spacing: -0.015em;
 }
 .reviews-controls {
@@ -640,7 +649,7 @@ button[type="submit"] {
 }
 .contact-us {
   max-width: 47%;
-  margin: auto;
+  margin: 35px auto;
 }
 .contact-us-titles {
   color: #ffffff;
@@ -649,14 +658,13 @@ button[type="submit"] {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 2.142rem;
+  line-height: 2.857rem;
 }
 
 .contact-us-subtitle h2 {
   margin: 0;
-  font-size: 18px;
-  line-height: 21px;
+  line-height: 1.5rem;
   letter-spacing: 0.005em;
 }
 
@@ -665,30 +673,31 @@ button[type="submit"] {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
-    opacity: 1; /* Firefox */
-  }
+}
 
+.contact-us-form form,
+.form-body {
+  ::placeholder {
+    color: white;
+    opacity: 1;
+  }
   :-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
     color: white;
   }
 
   ::-ms-input-placeholder {
-    /* Microsoft Edge */
     color: white;
   }
 }
+
 .form-input-name,
 .form-input-email,
 .form-input-message {
   padding-top: 40px;
   padding-bottom: 5px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1.142rem;
+  line-height: 1.357rem;
   letter-spacing: 0.07em;
   color: rgba(255, 255, 255, 0.986);
   background-color: transparent;
@@ -708,8 +717,8 @@ button[type="submit"] {
   width: 128px;
   height: 42px;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1.142rem;
+  line-height: 1.357rem;
   color: #ffb800;
   background-color: #fff;
   border: none;
@@ -740,19 +749,20 @@ button[type="submit"] {
 .footer-logo {
   display: flex;
   flex-direction: column;
+  max-width: 25%;
 }
 .footer-logo-text {
-  max-width: 300px;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 1.142rem;
+  line-height: 1.785rem;
+
   letter-spacing: -0.7px;
 }
 .footer-nav-item {
   a {
     display: block;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.142rem;
+    line-height: 1.357rem;
     color: #ffffff;
     padding-top: 23px;
   }
@@ -760,11 +770,11 @@ button[type="submit"] {
 .footer-address {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100px;
   max-width: 150px;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1.142rem;
+  line-height: 1.357rem;
   a {
     color: #ffffff;
     span {
@@ -776,14 +786,15 @@ button[type="submit"] {
   flex-direction: column;
   height: 100px;
   margin: 0;
+  width: auto;
   svg {
     fill: rgba(255, 255, 255, 0.2);
   }
 }
 .footer-copyright {
   max-width: 1200px;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1rem;
+  line-height: 1.142rem;
   letter-spacing: 0.005em;
   color: rgba(255, 255, 255, 0.29);
   padding-left: 12%;
@@ -791,5 +802,176 @@ button[type="submit"] {
 }
 
 // ***********************************  end footer block *******************************************
+
+// ***************************** START MODAL BLOCK ****************************
+
+.modal {
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: -100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(82, 82, 82, 0.7);
+  transition: all 0.4s;
+  display: flex;
+  &.open {
+    opacity: 1;
+    z-index: 100;
+  }
+}
+.modal-open {
+  padding: 15px;
+  position: absolute;
+  top: -100vh;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: #ff9900;
+  box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+  transition: all 0.4s;
+}
+
+.modal.open .modal-open {
+  padding: 15px;
+  margin: 5% 2%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #ffb800;
+  top: 0;
+}
+
+.modal-close {
+  position: absolute;
+  width: 40px;
+  cursor: pointer;
+  right: 0;
+  top: 0px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  &:active,
+  &:focus {
+    outline: none;
+    border: none;
+  }
+  &:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    top: -23px;
+    height: 2px;
+    width: 25px;
+    background: #fff;
+    transform: rotate(45deg);
+  }
+  &:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    height: 2px;
+    width: 25px;
+    background: #fff;
+    transform: rotate(-45deg);
+  }
+}
+
+.modal-body {
+  max-width: 550px;
+  margin: 0 auto;
+  color: #fff;
+}
+.modal-header {
+  max-width: 550px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 30px 0;
+}
+.modal-body.open {
+  display: block;
+}
+.form-body * {
+  outline: none;
+}
+.form-item {
+  margin: 0 0 20px 0;
+}
+.form-label {
+  font-size: 1.285rem;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.form-input {
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 1.142rem;
+  line-height: 1.357rem;
+  letter-spacing: 0.07em;
+  color: rgba(255, 255, 255, 0.986);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid #ffffff;
+  &:focus {
+    box-shadow: 0 0 7px #fff;
+  }
+  &._error {
+    box-shadow: 0 0 10px rgb(158, 31, 31);
+  }
+}
+
+.checkbox._error .checkbox-label::before {
+  box-shadow: 0 0 15px rgb(158, 31, 31);
+}
+
+.checkbox-input {
+  display: none;
+}
+
+.checkbox-input:checked + .checkbox-label::after {
+  transform: scale(1);
+}
+.checkbox-label {
+  font-size: 1.142rem;
+  line-height: 140%;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.checkbox-label::before {
+  content: "";
+  align-self: flex-start;
+  flex: 0 0 27px;
+  height: 27px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 10px 0 0;
+}
+.checkbox-label::after {
+  content: "V";
+  padding: 2px;
+  font-size: 1.714rem;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: #ffb800;
+  border-radius: 4px;
+  transform: scale(0);
+  transition: 0.2s;
+}
+
+// ***************************** END MODAL BLOCK ****************************
 
 @import "media-queries.scss";

@@ -76,7 +76,7 @@
 						</ul>
 					</div>
 					<div class="header-button">
-						<button type="submit">Замовити дзвінок</button>
+						<button class="contact-button-modal" type="submit">Замовити дзвінок</button>
 					</div>
 				</header>
 
@@ -89,7 +89,7 @@
 							<h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum eros arcu, at aliquet tortor vestibulum ut. Quisque sed libero nec nulla pulvinar pharetra. Aliquam porttitor justo lorem, at rhoncus nulla condimentum vitae. Cras vitae aliquet quam. </h2>
 						</div>
 						<div class="content-button">
-							<button type="submit">Залишити заявку</button>
+							<button class="contact-button-modal" type="submit">Залишити заявку</button>
 						</div>
 					</div>
 				</article>
@@ -424,6 +424,39 @@
 					</p>
 				</div>
 			</footer>
+
+			<div class="modal">
+				<div class="modal-open">
+					<button class="modal-close">
+						<span class="modal-close-span"></span>
+						<span class="modal-close-span"></span>
+					</button>
+					<div class="modal-body">
+						<div class="modal-header">
+							<h1>Залиште свої контактні дані і ми скоро з Вами зв`яжемось</h1>
+						</div>
+						<form action="" id="form" class="form-body">
+							<div class="form-item">
+								<!-- <label for="form-firstName" class="form-label">Введіть ваше ім`я*:</label> -->
+								<input class="form-input _req" id="form-firstName" name="name" type="text" placeholder="Petro Doroshencko"></input>
+							</div>
+							<div class="form-item">
+								<!-- <label for="form-tel" class="form-label">Введіть ваш номер телефону:</label> -->
+								<input class="form-input _tel" id="form-tel" name="tel" type="tel" placeholder="+380934574556"></input>
+							</div>						
+	
+							<div class="form-item">
+								<div class="checkbox">
+									<input id="formAgreement" type="checkbox" checked name="agreement" class="checkbox-input _req">
+									<label for="formAgreement" class="checkbox-label">Я даю згоду на оброблення персональних даних</label>
+								</div>
+							</div>
+							<button class="form-button" type="submit">Відправити</button>
+
+						</form>
+					</div>
+				</div>
+			</div>
 
 		</div>
 

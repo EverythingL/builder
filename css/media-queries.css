@@ -1,4 +1,7 @@
 @media only screen and (max-width: 860px) {
+  html {
+    font-size: 12px;
+  }
   body .lock {
     overflow: hidden;
   }
@@ -39,6 +42,7 @@
   }
   .header-button-wrapper {
     display: block;
+    padding-right: 1%;
   }
   .header-burger {
     display: -webkit-box;
@@ -80,6 +84,222 @@
   }
   .header-menu {
     width: 0;
+  }
+  .header-block {
+    min-height: 700px;
+  }
+  .header-block-footer {
+    font-size: 10px;
+  }
+  .list-item {
+    max-width: calc(98% / 5);
+    background-size: 50%;
+    background-position: center;
+  }
+  .about-us {
+    min-height: 560px;
+  }
+  .about-us-experience__count {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 208px;
+    height: 200px;
+  }
+  .about-us-experience__count p {
+    padding: 0;
+  }
+  .about-us-text-subtitle h2 {
+    margin: 10px;
+  }
+  .stages {
+    min-height: 430px;
+  }
+  .stages-text {
+    margin: 25px 0 0 5%;
+  }
+  .our-works {
+    min-height: 500px;
+  }
+  .our-works-descriptions {
+    padding-left: 5%;
+  }
+  .our-works-descriptions-subtitle h2 {
+    text-align: justify;
+  }
+  .our-works-slider-wrapper {
+    height: 500px;
+  }
+  .swiper-wrapper .our-works-slider-slide {
+    width: 450px;
+  }
+  .gallery-top {
+    height: 500px;
+    width: 90%;
+  }
+  .gallery-top:after {
+    height: 70px;
+  }
+  .gallery-top .our-works-slider-slide {
+    width: 500px;
+  }
+  .gallery-thumbs {
+    width: 320px;
+  }
+  .gallery-thumbs .swiper-wrapper {
+    width: 300px;
+  }
+  .gallery-thumbs .our-works-slider-slide {
+    width: 70px;
+  }
+  .gallery-thumbs .our-works-slider-slide {
+    height: 70px;
+  }
+  .reviews-swiper-button-next,
+  .reviews-swiper-button-prev,
+  .our-works-swiper-button-next,
+  .our-works-swiper-button-prev {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .reviews-wrapper {
+    max-width: 75%;
+  }
+  .reviews-text {
+    margin-bottom: 50px;
+  }
+  .reviews-text:after {
+    top: -70px;
+  }
+  .contact-us {
+    max-width: 67%;
+    margin: 15px auto;
+  }
+  .footer {
+    min-height: 300px;
+  }
+  .footer-contact-wrapper {
+    height: auto;
+  }
+  .footer-address,
+  .footer-icon {
+    height: 80px;
+  }
+  .footer-nav-item a {
+    padding: 9px 0;
+  }
+  .footer-logo {
+    max-width: 85%;
+    padding: 0 7%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+  .header-block-footer {
+    height: 140px;
+  }
+  .contacts-phone span {
+    padding-left: 10px;
+  }
+  .contacts-icon {
+    margin: 0 35px;
+  }
+  .stages {
+    min-height: 330px;
+  }
+  .chart-count {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .our-works-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .our-works-descriptions {
+    padding-left: 0;
+    width: 80%;
+  }
+  .our-works-descriptions-subtitle h2 {
+    max-width: 100%;
+  }
+  .our-works-slider-wrapper {
+    width: 80%;
+  }
+  .gallery-top {
+    height: 480px;
+    width: 100%;
+  }
+  .reviews-wrapper {
+    max-width: 85%;
+  }
+  .form-input-name,
+  .form-input-email {
+    min-width: 98%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+  .header-block {
+    min-height: 550px;
+  }
+  .header-block-footer {
+    height: 120px;
+  }
+  .header-block-footer-list {
+    width: 100%;
+    margin: 0 1%;
+  }
+  .about-us {
+    min-height: 480px;
+  }
+  .about-us-experience__count {
+    width: 100%;
+    height: 140px;
+  }
+  .stages {
+    min-height: 280px;
+  }
+  .chart-count {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .our-works-slider-wrapper {
+    height: 400px;
+  }
+  .gallery-top {
+    height: 400px;
+  }
+  .reviews-swiper-button-next,
+  .reviews-swiper-button-prev,
+  .our-works-swiper-button-next,
+  .our-works-swiper-button-prev {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .reviews-text-quotes h3 {
+    margin: 25px 0 20px 0;
+  }
+  .footer {
+    min-height: 280px;
+  }
+  .footer-address {
+    max-width: 100px;
   }
 }
 /*# sourceMappingURL=media-queries.css.map */
